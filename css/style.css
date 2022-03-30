@@ -180,9 +180,14 @@ p {
 
 /* intro end */
 
+.section {
+    margin-bottom: 100px;
+}
+
 /* info start */
 
 .info {
+    transform: translateY(-50%);
 
 }
 
@@ -193,7 +198,7 @@ p {
 
 .info__block {
     width: 33.33%;
-    padding: 0 10%;
+    padding: 0 10px;
 }
 
 .info__item {
@@ -217,8 +222,14 @@ p {
 .info__text {
     font-size: 18px;
     color: #b7b7b7;
-
-
 }
 
 /* info end */
+
+/* block start */
+.block__title {
+    margin-bottom: 15px;
+    font-size: 30px;
+    letter-spacing: 0.15em;
+}
+/* block end */
