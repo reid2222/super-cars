@@ -232,4 +232,13 @@ p {
     font-size: 30px;
     letter-spacing: 0.15em;
 }
+
+.block__link {
+    letter-spacing: 0.15em;
+    color: #000;
+}
+
+.block__link:hover {
+    text-decoration: none;
+}
 /* block end */
