@@ -169,6 +169,7 @@ p {
     font-weight: 700;
     color: #fff;
     line-height: 1.5;
+    text-transform: uppercase;
 }
 
 /* intro end */
@@ -201,6 +202,7 @@ p {
     margin-bottom: 10px;
     font-size: 18px;
     letter-spacing: 0.15em;
+    text-transform: uppercase;
 }
 
 .info__text {
@@ -212,16 +214,22 @@ p {
 
 /* block start */
 .block__title {
-    margin-bottom: 60px;
     margin-bottom: 15px;
     font-size: 30px;
     letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.block__title.text-white {
+    color: #fff;
 }
 
 .block__link {
+    margin-bottom: 60px;
     display: inline-block;
     letter-spacing: 0.15em;
     color: #000;
+    text-transform: uppercase;
 }
 
 .block__link:hover {
@@ -303,6 +311,7 @@ p {
     font-weight: 600;
     letter-spacing: 0.23em;
     color: #000;
+    text-transform: uppercase;
 }
 
 .services__text{
@@ -314,7 +323,42 @@ p {
     position: absolute;
     left: 30px;
     bottom: 20px;
+    text-transform: uppercase;
 
 }
 
 /* services end */
+
+/* about start */
+.about {
+    padding: 115px 0;
+    background-color: #171616;
+}
+
+.about__wrapper {
+    display: flex;
+}
+
+.about__block {
+    max-width: 505px;
+}
+
+.about__text {
+    font-weight: 600;
+    color: #B7B7B7;
+    letter-spacing: 0.23em;
+}
+
+.about__link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.about__link:hover {
+    text-decoration: none;
+}
+
+/* about end */
