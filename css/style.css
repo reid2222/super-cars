@@ -328,7 +328,6 @@ p {
     left: 30px;
     bottom: 20px;
     text-transform: uppercase;
-
 }
 
 /* services end */
@@ -402,3 +401,44 @@ p {
 }
 
 /* process end */
+
+/* contacts__start */
+.contacts {
+    padding: 100px 0;
+    background-color: #181717;
+}
+
+.contacts__form {
+    min-width: 440px;
+}
+
+.form__row {
+    display: flex;
+    margin: 0 -20px;    
+}
+
+.form__gruop {
+    padding: 0 20px;
+    flex: 1;
+}
+
+.input {
+    width: 100%;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    min-height: 120px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.label {
+    letter-spacing: 0.15em;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
